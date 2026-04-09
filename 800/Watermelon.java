@@ -1,0 +1,11 @@
+import java.util.*;
+
+class Main{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int w = scan.nextInt();
+        if((w&1)==0 && w>2) System.out.println("YES");
+        else System.out.println("NO");
+        scan.close();
+    }
+}
